@@ -6,14 +6,15 @@ Cada imagen se segmenta en regiones únicas para clasificar.
 La consola principal del etiquetador es
 <img src="https://drive.google.com/uc?id=1hZTw1g10THVHENAbOLuoENuA2A501Tug" alt="Inicio etiquetador" width="600" height="500">
 
-En `1. Elegir archivo` se debe elegir un archivo txt con los parámetros necesarios para realizar la segmentación, así como las categorías a elegir y el prefijo con el que se guarda la imagen etiqueta y el archivo csv generado con las características, pues por default se nombran como: `prefijo + nombre_imagen`.
+En `1. Elegir archivo` se debe elegir un archivo txt con los parámetros necesarios para realizar la segmentación, así como las categorías a elegir y el prefijo con el que se guarda la imagen etiquetada y el archivo csv generado con las características, pues por default se nombran como: `prefijo + nombre_imagen`.
 
 
 Se prosigue a seleccionar la imagen con `2. Elegir imagen`.
 
 <img src="https://drive.google.com/uc?id=1r7ViV_iq32Riz38aJicdz3wJKZLyIhXt" alt="Elegir imagen" width="600" height="500">
 
-Hasta el momento se considera 6 categorías:
+Hasta el momento se consideran 6 categorías:
+
 0. Árbol
 1. Suelo desnudo
 2. Pavimento
@@ -49,7 +50,7 @@ Los autores del código son:
 Karla Mauritania Reyes Maya, Viridiana Itzel Méndez Vásquez ([viridiana.mendez@cimat.mx](mailto:viridiana.mendez@cimat.mx)).
 
 
-Es un trabajo bajo la dirección de:
+Un trabajo bajo la dirección de:
 * Dr. Francisco Javier Hernández López (CIMAT Mérida)
 * Dr. Víctor Hugo Muñíz Sánchez (CIMAT Monterrey)
 
