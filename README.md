@@ -13,7 +13,7 @@ Se prosigue a seleccionar la imagen con `2. Elegir imagen`.
 
 <img src="https://drive.google.com/uc?id=1r7ViV_iq32Riz38aJicdz3wJKZLyIhXt" alt="Elegir imagen" width="600" height="500">
 
-Hasta el momento se consideran 6 categorías:
+Hasta el momento se consideran 7 categorías:
 
 0. Árbol
 1. Suelo desnudo
@@ -21,6 +21,7 @@ Hasta el momento se consideran 6 categorías:
 3. Cuerpo de agua
 4. Techo de lámina
 5. Techo de loza
+6. Sin etiqueta
 
 # Instrucciones para ejecutar el Etiquetador
 
