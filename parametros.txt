@@ -2,5 +2,5 @@
 10 #Parametro 2
 10  #Parametro 3
 20 #Parametro 4
-Arboles, Suelo Desnudo, Pavimento, Cuerpo de Agua,Techo de Lamina,Techo de Loza #Categorías a etiquetar
+Arboles, Suelo Desnudo, Pavimento, Cuerpo de Agua,Techo de Lamina,Techo de Loza, Sin etiqueta #Categorías a etiquetar
 Etiquetado #Nombre de los archivos
