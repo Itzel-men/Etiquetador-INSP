@@ -94,10 +94,11 @@ def recuperacion_etiquetado():
             g=0
             b=128
         if(cat == 6):
-            #amarillo
+            #Sin etiqueta
+            #Negro
             r=0
-            g=255
-            b=255
+            g=0
+            b=0
         if(cat == 7):
             r=0
             g=128
@@ -204,7 +205,7 @@ def elegir_archivo():
                 # Techo de Loza
                 categoria = 5
             if inde == 6:
-                # 
+                # Sin etiqueta
                 categoria = 6
             if inde == 7:
                 # 
@@ -610,10 +611,11 @@ def coords(event,imagen,cat):
             g=0
             b=128
         if(cat == 6):
-            #amarillo
+            #Sin etiqueta
+            #Negro
             r=0
-            g=255
-            b=255
+            g=0
+            b=0
         if(cat == 7):
             r=0
             g=128
