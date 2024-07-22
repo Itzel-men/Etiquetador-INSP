@@ -457,7 +457,13 @@ def img_etiquetas(indices,prediction, Labels_slic, path_image, img_seg, save=Fal
             #128,0,0
             r=0
             g=0
-            b=128    
+            b=128
+        if prediction[j] == 6:
+            #Sin Etiqueta
+            #Negro
+            r=0
+            g=0
+            b=0    
         ### El orden es BGR
         respaldo[col,row,0] = b
         respaldo[col,row,1] = g
@@ -473,7 +479,8 @@ def img_etiquetas(indices,prediction, Labels_slic, path_image, img_seg, save=Fal
            'Pavimento': (104, 131, 139), 
            'Cuerpo de agua': (61, 85, 171), 
            'Techo de lámina': (205, 104, 137), 
-           'Techo de loza': (128,0,0)}
+           'Techo de loza': (128,0,0),
+           'Sin etiqueta': (0,0,0)}
 
     # Crea los parches de color y etiquetas
     parches = [Patch(color=[r/255, g/255, b/255], label=nombre) for nombre, (r, g, b) in color_dict.items()]
